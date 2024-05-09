@@ -1,0 +1,6 @@
+temp
+*.pdf
+*.txt
+./*.txt
+.log
+*.log
