@@ -1,5 +1,5 @@
 /*
-    @developers "Anjan Maity,Subhasis Khanra,Sourav Pramanik"
+    @developers "Anjan Maity"
     @params "css3"
 */
 
@@ -44,6 +44,7 @@
   --grey-text: #e5e4f1;
   --header-bg-color-primary: #4dadf7;
   --header-bg-color-secondary: #b9dfee;
+  --text-white:#fff;
   --bx-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   --gradient-color-secondary: linear-gradient(
     -225deg,
@@ -203,7 +204,7 @@ header {
 }
 
 .para-text {
-  color: var(--text-light-white);
+  color: var(--text-white);
 }
 
 .list-item {
@@ -415,7 +416,7 @@ section ul {
 section ul li {
   display: inline-block;
   width: 90%;
-  color: var(--text-light-white);
+  color: var(--text-white);
   border-bottom: 1px dotted var(--border-color);
   margin-top: 0.5rem;
 }
